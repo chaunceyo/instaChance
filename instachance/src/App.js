@@ -14,7 +14,9 @@ function App() {
         <NavBar/>
         <nav className='App-nav'>
           <Routes>
-            <Route></Route>
+            <Route path='/home'></Route>
+            <Route path='/feed'></Route>
+            <Route path='/account'></Route>
           </Routes>
         </nav>
       </div>

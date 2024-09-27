@@ -35,3 +35,9 @@ h1{
   width: 400px;
   font-size:larger;
 }
+
+.navbar-links{
+  display: flex;
+  justify-content: space-around;
+  font-size: 40px;
+}
