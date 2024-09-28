@@ -46,3 +46,7 @@ h1{
   justify-content: space-around;
   font-size: 40px;
 }
+
+.navbar-container{
+  border: 2px solid rgb(41, 41, 255);
+}
