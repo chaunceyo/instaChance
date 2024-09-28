@@ -2,7 +2,7 @@ import React from "react";
 
 const Feed = () => {
     return(
-        <div>Hello</div>
+        <div><h1>Feed Here</h1></div>
     )
 }
 
