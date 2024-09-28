@@ -8,7 +8,13 @@ function App() {
     <Router>
       <div className="App">
         <div className='insta-header'>
-          <h1>instaChance</h1>
+          <h1>instaChance
+          <img src='https://img.freepik.com/premium-photo/3d-illustration-closeup-pair-white-dices-black-background-white-dice-flight-casino-gambling_116124-5781.jpg'
+                alt='dice'
+                height='50'
+                width='100'>
+          </img>
+          </h1>
         </div>
         <SearchBar/>
         <NavBar/>

@@ -18,6 +18,11 @@ code {
   border: 2px solid rgb(41, 41, 255);
 }
 
+.insta-header img{
+  display: flex;
+ margin-left: auto;
+  
+}
 
 h1{
   display: flex;
