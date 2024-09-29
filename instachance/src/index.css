@@ -47,14 +47,25 @@ h1{
   font-size: 40px;
 }
 
+.post-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .navbar-container{
   border: 2px solid rgb(41, 41, 255);
 }
 
 .postHeader-wrapper{
   border: 2px solid rgb(41, 41, 255);
-  width: 500px;
-  height: 150px;
+  width: 625px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+
+  
   
 }
 
@@ -65,12 +76,13 @@ h1{
 }
 
 .post-thumb{
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
 }
 
 .postHeader-username{
   display: flex;
-  justify-content: flex-end;
-  padding-right: 100px;
+  justify-content: center;
+  padding-left: 65px;
+  padding-top: 20px;
 }
