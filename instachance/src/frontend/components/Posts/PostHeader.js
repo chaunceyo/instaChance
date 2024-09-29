@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import data from "../../data/dummy-data";
 
 const PostHeader = (props) => {
-    const {profilePicUrl} = props 
+    const {profilePicUrl, username} = props 
 
     return(
        <div className="postHeader-wrapper">
@@ -14,6 +14,7 @@ const PostHeader = (props) => {
                     >
                 </img>
             </div>
+            <h1 className="postHeader-username">{username}</h1>
        </div> 
     )
 }
