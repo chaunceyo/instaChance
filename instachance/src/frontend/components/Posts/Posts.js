@@ -8,7 +8,6 @@ const Posts = () => {
 
     return(
        <div>
-            <h1>Hello i am posts</h1>
             {
                 posts.map(pst => <Post post={pst} key={pst.id}/>)   
             }
