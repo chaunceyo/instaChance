@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import PostHeader from "./PostHeader";
 import data from "../../data/dummy-data";
+import LikeSection from "./LikeSection";
 
 const Post = (props) => {
     const {post} = props
@@ -19,6 +20,7 @@ const Post = (props) => {
                     src={post.imageUrl}
                 ></img>
             </div>
+            <LikeSection likeNum={post.likes} />
        </div> 
     )
 }
