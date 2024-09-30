@@ -1,8 +1,15 @@
 import React from "react";
+import Comment from "./Comment";
 
-const Comments = () => {
+const Comments = (props) => {
+    const {comments} = props
+
     return(
-        <div>Hello</div>
+        <div className="comments-wrapper">
+            {
+                comments.map(comment => <Comment comment={comment} key={comment.id}/>)
+            }
+        </div>
     )
 }
 
