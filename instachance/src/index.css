@@ -97,16 +97,36 @@ h1{
 
 .like-number{
   color: white;
+  display: flex;
+  padding-left: 30px;
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: x-large;
+  
 
+}
+
+.like-section{
+  border: 2px solid rgb(41, 41, 255);
+  padding-top: 15px;
 }
 
 .like-tab{
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 5px;
   width: 625px;
   height: 50px;
-  border: 2px solid rgb(41, 41, 255);
-  justify-content: space-around;
   
 }
+
+.likes-emoji{
+  padding-left: 20px;
+  font-size: xx-large;
+}
+
+.comments-emoji{
+  padding-left: 25px;
+  font-size: xx-large;
+}
+
